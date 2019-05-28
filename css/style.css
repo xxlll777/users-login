@@ -1,0 +1,146 @@
+body {
+  margin: 0; }
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+body {
+  background: #fef7ea; }
+
+.registration {
+  margin-top: 150px;
+  border: solid 1px gray;
+  background: #f0f0f0;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 40px; }
+
+.reg__ttl {
+  width: 300px;
+  height: 60px;
+  padding-top: 26px;
+  background: skyblue;
+  color: #ffffff;
+  margin-bottom: 30px;
+  text-align: center;
+  box-sizing: border-box; }
+
+.reg__name, .reg__email, .reg__pass {
+  padding: 15px 10px; }
+
+input[type=text] {
+  width: 230px;
+  padding: 10px 5px;
+  border: 1px solid gray;
+  display: block;
+  margin: 0 auto;
+  box-sizing: border-box; }
+
+input[type=password] {
+  width: 230px;
+  padding: 10px 5px;
+  border: none;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid gray;
+  box-sizing: border-box; }
+
+input[type=submit] {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  width: 230px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  background: skyblue;
+  color: #ffffff;
+  border: 1px solid gray; }
+
+/*# sourceMappingURL=style.css.map */
