@@ -1,0 +1,30 @@
+
+input[type=text]{
+	width:230px;
+	padding: 10px 5px;
+	border: 1px solid gray;
+	display: block;
+	margin: 0 auto;
+	box-sizing:border-box;
+}
+input[type=password]{
+	width:230px;
+	padding: 10px 5px;
+	border: none;
+	display: block;
+	margin: 0 auto;
+	border: 1px solid gray;
+	box-sizing:border-box;
+}
+input[type=submit]{
+	margin-top: 10px;
+	padding: 10px 20px;
+	border: none;
+	width:230px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	background: skyblue;
+	color:#ffffff;
+	border: 1px solid gray;
+}

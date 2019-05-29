@@ -1,0 +1,23 @@
+.registration{
+
+	margin-top: 150px;
+	border: solid 1px gray;
+	background: #f0f0f0;
+	width:300px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-bottom: 40px;
+}
+.reg__ttl{
+	width:300px;
+	height:60px;
+	padding-top: 26px;
+	background: skyblue;
+	color:#ffffff;
+	margin-bottom: 30px;
+	text-align: center;
+	box-sizing:border-box;
+}
+.reg__name,.reg__email,.reg__pass{
+	padding: 15px 10px;
+}

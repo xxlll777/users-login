@@ -1,60 +1,7 @@
 @charset"UTF-8";
 
 @import "reset";
+@import "input";
+@import "base";
+@import "registration";
 
-body{
-	background: #fef7ea;
-}
-
-.registration{
-
-	margin-top: 150px;
-	border: solid 1px gray;
-	background: #f0f0f0;
-	width:300px;
-	margin-right: auto;
-	margin-left: auto;
-	padding-bottom: 40px;
-}
-.reg__ttl{
-	width:300px;
-	height:60px;
-	padding-top: 26px;
-	background: skyblue;
-	color:#ffffff;
-	margin-bottom: 30px;
-	text-align: center;
-	box-sizing:border-box;
-}
-.reg__name,.reg__email,.reg__pass{
-	padding: 15px 10px;
-}
-input[type=text]{
-	width:230px;
-	padding: 10px 5px;
-	border: 1px solid gray;
-	display: block;
-	margin: 0 auto;
-	box-sizing:border-box;
-}
-input[type=password]{
-	width:230px;
-	padding: 10px 5px;
-	border: none;
-	display: block;
-	margin: 0 auto;
-	border: 1px solid gray;
-	box-sizing:border-box;
-}
-input[type=submit]{
-	margin-top: 10px;
-	padding: 10px 20px;
-	border: none;
-	width:230px;
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	background: skyblue;
-	color:#ffffff;
-	border: 1px solid gray;
-}
