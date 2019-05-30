@@ -25,3 +25,9 @@ if(0<(int)$record[0]['cnt']){ //select記入したものを取り出している
 	echo '失敗';
 }
 //session 値を保持
+//emailでuserを判断する
+
+//「$user = $stmt->fetch();」＝「実行結果のデータを取り出す」
+
+//PDOとは「PHP Data Objects」の略。
+//PDOを使うことで、どのデータベースを利用する場合でも同じ関数を使うことができる
