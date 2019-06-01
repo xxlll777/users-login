@@ -6,3 +6,5 @@ if(isset($_SESSION['username'])){
 } else {
 	echo 'ログインしてください';
 }
+//if文で(usename同じemailアドレスで登録している
+//userがいるかどうか)判断する。

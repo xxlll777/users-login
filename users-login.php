@@ -18,7 +18,9 @@ $stmt->execute(array(
 	));
 $record = $stmt->fetchAll();
 if(0<(int)$record[0]['cnt']){ //select記入したものを取り出している
-	echo '成功'; session_start();
+	echo '成功<br>'; 
+	echo '<a href="logout.php">ログアウト</a>'; //htmlはシングル
+	session_start();
 	$_SESSION["username"] = $_POST['email'];
 	echo $_SESSION[‘username’] ;
 	}else{

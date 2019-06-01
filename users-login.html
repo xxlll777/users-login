@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+	<div class="message"></div>
 	<p>ログイン画面です。</p>
 	<form action="users-login.php" method="post" enctype="application/x-www-form-urlencoded">
 
@@ -23,5 +24,35 @@
 
 
 </form>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+  <script>
+  	// URL が「http://www.example.com?lib=jquery&ver=3」の場合
+
+var isLogout = (getParam('logout')); //「jquery」を出力
+
+if(isLogout === "true"){
+	$('.message').html('ログアウトしました');
+}
+/**
+ * Get the URL parameter value
+ *
+ * @param  name {string} パラメータのキー文字列
+ * @return  url {url} 対象のURL文字列（任意）
+ */
+function getParam(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+  </script>
 </body>
 </html>
